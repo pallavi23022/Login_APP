@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimaryDark"
+    >
+
+
+    <EditText
+        android:id="@+id/ed1"
+
+        android:hint="Enter Username"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:background="@android:color/white"
+        android:elevation="100dp"
+        android:cursorVisible="true"
+        android:textCursorDrawable="@color/colorPrimaryDark"
+        />
+
+    <EditText
+        android:hint="Enter Password"
+        android:layout_below="@+id/ed1"
+        android:id="@+id/ed2"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:background="@android:color/white"
+        android:elevation="100dp"
+        android:inputType="textPassword"
+
+        />
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:background="@color/colorAccent"
+            android:text="LoGIN"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:elevation="100dp"
+            android:shadowColor="@android:color/darker_gray"
+
+            />
+        <Button
+            android:id="@+id/sign"
+            android:layout_below="@+id/login"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:background="@color/colorAccent"
+            android:text="SIGNIN"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:elevation="100dp"
+            android:shadowColor="@android:color/darker_gray"
+
+            />
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>
